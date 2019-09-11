@@ -1,0 +1,50 @@
+*** HEART DISEASE PREDICTION DATA-DRIVEN PROJECT ***
+normal - 1
+reversible - 2
+fixed - 3
+
+1) Understanding The Fields and Data (Data Pre-Processing and Feature Engineering):
+-> 
+a. Slope Of Peak Exercise ST Segment: 
+- The ST segment represents the isoelectric period when the ventricles are in between depolarization and repolarization (muscles contraction mechanism based on transfer of cations and anions, sodium pottasium channels, sodium potassium pump)
+- P - Depolarization of Atrium, QRS - Depolarization of Ventricle, T- Repolarization of both
+- ST Segment -> Interval between both!
+
+b. Thallium Stress Test Results: (Possible Values -> Normal, Reversible Defect, Fixed Defect) 
+
+
+c. Resting Blood Pressure: Normal Range -> 120/80 mm Hg ; 140+ = High BP ; 60- = Low BP 
+- Dangerous Heart Attack
+
+
+d. Chest Pain Type (1,2,3,4):
+
+
+e. Num of Major Vessels Blocked: Subclavian, Aota, Brachiocephalic
+
+
+f. Fasting Blood Sugar: ORAL GLUCOSE TOLERANCE TEST (OCGT) , POST PRANBIAL BLOOD SUGAR
+
+
+g. Resting ECG Results:
+
+
+h. Serum Cholestrol: (Normal Range : 140-200 mg per decilitre) Cholestrol Increases and Risk of Heart Attack Decreases
+
+
+i. Oldpeak Eq St Depression: 
+
+
+j. Sex: (Females are more prone than man)
+
+
+k: Age: (Risk Increases with Age) [40-60] => VERY COMMON
+
+
+l: Max Heart Rate Achieved (Beats per minute)
+
+
+k: Exercise Induced Angina: (Riskier if 1, Less Risky if 0)
+
+
+m: 
