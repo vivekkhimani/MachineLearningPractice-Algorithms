@@ -1,0 +1,10 @@
+*** WHAT IS THE BEST CLASSIFICATION MODEL? ***
+
+1) Naive Bayes?
+-> One of the simplest classification model that works on the simplest principle of Bayes Theorem in probability. Usually used when the data is huge with various attributes. But, while using this model, it's ASSUMED that the features are independent/conditionally independent of each other which is quite a strong assumption. Also, we need DISCRETE VALUES for the features while our data has 4 features with continuous values. We can still think about DISCRETIZING the values if it follows a normal distribution. But one of the major reasons to disregard this model is the fact that we need to return probabilities at the end of the problem. As we can see from the dataset, a lot of features are dependent on each other while addressing this problem, there's a very less chance that we might get the correct probabilities at the end. If it was just a binary classification problem, we might have still thought about using it because we pick the class with MAXIMUM probability at the end. This doesn't require the model to produce exact probabilities. 
+
+2) Logistic Regression? 
+-> Another popular classification algorithm which can return probability of classes at the end. But again as a lot of features are dependent on each other, it's not a suitable algorithm for this problem. Yet, we can consider this algorithm and see other available options first. 
+
+3) Trees, Random Forests, Boosting?
+-> 
