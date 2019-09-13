@@ -1,0 +1,17 @@
+Based on the statistics available from the reliabale online sources, the feature engineering can be done in the following manner:
+
+1) Pclass => The most important feature as it's known that first-class or upper-class passengers were given prior chance to get on the lifeboats. Also the statistics available online show the following results:
+	- Total Survival Rate: 37%
+	- First Class Survivval Rate: 61%
+	- Second Class Survival Rate: 42%
+	- Third Class Survival Rate: 24%
+
+2) Sex => This can be considered as second most important feature as it's believed that women and children were first allowed to get on the lifeboats and men were the last. 
+
+3) Age => Another important feature as children were first allowed to get on the lifeboats. So the chances of survival increase if the age is really small. 
+
+4) SibSp => Important feature because if a person had more siblings, it's less likely that he/she would go on a lifeboat before their siblings. As a result chances of survival decreases.
+
+5) Parsp => Same logic as SibSp. It's less likely that a person would go on a lifeboat without their parents.
+
+Other features can be safely disregarded from the data as the fiels like NAME are subjective. Also, it didn't make any difference about where the passengers EMBARKED from. And the data about CABIN is incomplete, but most of it is generalized within the CLASS field which is heavily weighted. Also, the FARE and TICKET NUMBER are subjective fields which are dependent on CLASS, so no significant conclusions can be made out of it. 
