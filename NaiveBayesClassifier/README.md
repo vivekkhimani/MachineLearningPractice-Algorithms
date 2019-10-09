@@ -1,4 +1,4 @@
-## Project Description
+# Project Description
 
 # Purpose: 
 - A project that was just created for fun to explore one of the simplest but sometimes really efficient classifier, Naive Bayes Classifier. 
